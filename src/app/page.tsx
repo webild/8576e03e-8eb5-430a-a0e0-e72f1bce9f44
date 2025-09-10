@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarStyleMinimal from '@/components/navigation/NavbarStyleMinimal';
 import SplitHero from '@/components/sections/layouts/hero/SplitHero';

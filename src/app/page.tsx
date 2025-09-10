@@ -49,7 +49,7 @@ export default function Home() {
           steps={[
             { title: "Step 1", description: "Create a cryptocurrency wallet", image: "/images/placeholder1.avif", position: "left", isCenter: false },
             { title: "Step 2", description: "Find an exchange that supports TrendyCoin", image: "/images/placeholder2.avif", position: "center", isCenter: true },
-            { title: "Step 3", description: "Purchase TrendyCoin and start investing!", image: "/images/placeholder3.avif", position: "right", isCenter: false },
+            { title: "Step 3", description: "Purchase TrendyCoin and start investing!", image: "/images/placeholder3.avif", position: "right", isCenter: false }
           ]}
         />
       </div>
@@ -74,7 +74,7 @@ export default function Home() {
           columns={[
             { title: "Links", items: [{ label: "Home", onClick: () => alert('Home Clicked!') }, { label: "About", onClick: () => alert('About Clicked!') }] },
             { title: "Community", items: [{ label: "Discord", onClick: () => alert('Discord Clicked!') }, { label: "Twitter", onClick: () => alert('Twitter Clicked!') }] },
-            { title: "Support", items: [{ label: "FAQ", onClick: () => alert('FAQ Clicked!') }, { label: "Contact", onClick: () => alert('Contact Clicked!') }] },
+            { title: "Support", items: [{ label: "FAQ", onClick: () => alert('FAQ Clicked!') }, { label: "Contact", onClick: () => alert('Contact Clicked!') }] }
           ]}
           copyrightText="© 2023 TrendyCoin. All Rights Reserved."
           onPrivacyClick={() => alert('Privacy Policy Clicked!')}

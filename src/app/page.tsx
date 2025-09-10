@@ -6,7 +6,7 @@ import SocialsAbout from '@/components/sections/layouts/about/SocialsAbout';
 import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import PatternTokenomics from '@/components/sections/layouts/tokenomics/PatternTokenomics';
 import FooterLogo from '@/components/footer/FooterLogo';
-import { Chart, Users, Star, PiggyBank } from 'lucide-react';
+import { Users, Star, PiggyBank } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -59,10 +59,9 @@ export default function Home() {
           title="TrendyCoin Tokenomics"
           description="Know more about our tokenomics and how we sustain our ecosystem."
           kpiItems={[
-            { value: "1 Billion", description: "Total Supply", icon: Chart },
+            { value: "1 Billion", description: "Total Supply", icon: PiggyBank },
             { value: "40%", description: "Reserved for Developers", icon: Users },
-            { value: "20%", description: "Community Rewards", icon: Star },
-            { value: "30%", description: "Public Sale", icon: PiggyBank },
+            { value: "20%", description: "Community Rewards", icon: Star }
           ]}
         />
       </div>
